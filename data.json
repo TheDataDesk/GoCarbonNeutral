@@ -1,0 +1,3704 @@
+[
+    {
+        "startingAddress": "Berlin Zoo",
+        "destinationAddress": "East Side Gallery",
+        "dateTime": "2024-08-02T17:47:22Z",
+        "fromStops": [
+            {
+                "type": "stop",
+                "id": "900023201",
+                "name": "S+U Zoologischer Garten Bhf (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900023201",
+                    "latitude": 52.506919,
+                    "longitude": 13.332711
+                },
+                "products": {
+                    "suburban": true,
+                    "subway": true,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": true,
+                    "regional": true
+                },
+                "stationDHID": "de:11000:900023201"
+            },
+            {
+                "type": "stop",
+                "id": "900023172",
+                "name": "S+U Zoologischer Garten/Jebensstr. (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900023172",
+                    "latitude": 52.507125,
+                    "longitude": 13.330427
+                },
+                "products": {
+                    "suburban": true,
+                    "subway": true,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": true,
+                    "regional": true
+                },
+                "stationDHID": "de:11000:900023172"
+            },
+            {
+                "type": "stop",
+                "id": "900037168",
+                "name": "Berlin, Albrechtshof Bhf",
+                "location": {
+                    "type": "location",
+                    "id": "900037168",
+                    "latitude": 52.549339,
+                    "longitude": 13.129159
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": true
+                },
+                "stationDHID": "de:11000:900037168"
+            },
+            {
+                "type": "stop",
+                "id": "900029305",
+                "name": "Berlin, Staaken Bhf",
+                "location": {
+                    "type": "location",
+                    "id": "900029305",
+                    "latitude": 52.537698,
+                    "longitude": 13.142157
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": true
+                },
+                "stationDHID": "de:11000:900029305"
+            },
+            {
+                "type": "stop",
+                "id": "900180008",
+                "name": "Bahnhofstr./Lindenstr. (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900180008",
+                    "latitude": 52.450916,
+                    "longitude": 13.572408
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": true,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                },
+                "stationDHID": "de:11000:900180008"
+            }
+        ],
+        "toStops": [
+            {
+                "type": "stop",
+                "id": "900120544",
+                "name": "East Side Gallery (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900120544",
+                    "latitude": 52.505957,
+                    "longitude": 13.438388
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                },
+                "stationDHID": "de:11000:900120544"
+            },
+            {
+                "type": "stop",
+                "id": "900085281",
+                "name": "Lindauer Allee/Residenzstr. (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900085281",
+                    "latitude": 52.572522,
+                    "longitude": 13.359759
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": true,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                },
+                "stationDHID": "de:11000:900085281"
+            }
+        ],
+        "journeyData": {
+            "earlierRef": "3|OB|MT#14#11273#11273#11297#11297#0#0#65701#11267#1#0#10#0#0#-2147483648#1#2|PDH#448850cae069502eb320bc0633c64f62|RD#2082024|RT#194722|US#1|RS#INIT",
+            "laterRef": "3|OF|MT#14#11284#11284#11308#11308#0#0#165#11279#5#0#10#0#0#-2147483648#1#2|PDH#448850cae069502eb320bc0633c64f62|RD#2082024|RT#194722|US#1|RS#INIT",
+            "journeys": [
+                {
+                    "type": "journey",
+                    "legs": [
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900023201",
+                                "name": "S+U Zoologischer Garten Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900023201",
+                                    "latitude": 52.506919,
+                                    "longitude": 13.332711
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900023201"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900120005",
+                                "name": "S Ostbahnhof (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900120005",
+                                    "latitude": 52.510335,
+                                    "longitude": 13.435089
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900120005"
+                            },
+                            "departure": "2024-08-02T19:53:00+02:00",
+                            "plannedDeparture": "2024-08-02T19:53:00+02:00",
+                            "departureDelay": 0,
+                            "arrival": "2024-08-02T20:09:00+02:00",
+                            "plannedArrival": "2024-08-02T20:09:00+02:00",
+                            "arrivalDelay": 0,
+                            "reachable": true,
+                            "tripId": "1|82227|0|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "re1",
+                                "fahrtNr": "73742",
+                                "name": "RE1",
+                                "public": true,
+                                "adminCode": "ODRE1_",
+                                "productName": "RE",
+                                "mode": "train",
+                                "product": "regional",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                                    "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                                }
+                            },
+                            "direction": "S Ostbahnhof (Berlin)",
+                            "arrivalPlatform": "1",
+                            "plannedArrivalPlatform": "1",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "2",
+                            "plannedDeparturePlatform": "2",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Zoologischer Garten Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S Ostbahnhof (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "ez",
+                                    "text": "Fahrradmitnahme leicht gemacht: www.vbb.de/radimregio"
+                                },
+                                {
+                                    "id": "232366",
+                                    "type": "warning",
+                                    "summary": "Information.",
+                                    "text": "Bitte beachten Sie, dass es aufgrund der Sperrung der S-Bahn zu einem erh\u00f6hten Fahrgastaufkommen auf den Linien RE1 und RE8 kommt. Die Mitnahme von Fahrr\u00e4dern ist daher nur begrenzt m\u00f6glich. Bitte nutzen Sie zudem die gesamte Zugl\u00e4nge und verteilen sich gleichm\u00e4\u00dfig am Bahnsteig. Die Halteposition der Z\u00fcge k\u00f6nnen Sie an den Stationen der Berliner Stadtbahn (Ausnahme: Alexanderplatz) den Anzeigern am Bahnsteig entnehmen.",
+                                    "icon": {
+                                        "type": "HIM5",
+                                        "title": null
+                                    },
+                                    "priority": 32,
+                                    "products": {
+                                        "suburban": false,
+                                        "subway": false,
+                                        "tram": false,
+                                        "bus": false,
+                                        "ferry": false,
+                                        "express": false,
+                                        "regional": true
+                                    },
+                                    "company": "VBB",
+                                    "categories": [
+                                        5
+                                    ],
+                                    "validFrom": "2024-07-25T00:00:00+02:00",
+                                    "validUntil": "2024-09-03T23:59:00+02:00",
+                                    "modified": "2024-07-25T07:37:13+02:00"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 180,
+                                "max": 960,
+                                "nr": 15
+                            },
+                            "alternatives": [
+                                {
+                                    "tripId": "1|93382|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re4",
+                                        "fahrtNr": "47",
+                                        "name": "RE4",
+                                        "public": true,
+                                        "adminCode": "800158",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "Luckenwalde, Bahnhof",
+                                    "when": "2024-08-02T20:00:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:00:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|82663|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "rb23",
+                                        "fahrtNr": "829",
+                                        "name": "RB23",
+                                        "public": true,
+                                        "adminCode": "800165",
+                                        "productName": "RB",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "Flughafen BER",
+                                    "when": "2024-08-02T20:04:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:04:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|82254|11|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re1",
+                                        "fahrtNr": "73784",
+                                        "name": "RE1",
+                                        "public": true,
+                                        "adminCode": "ODRE1_",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                                            "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                                        }
+                                    },
+                                    "direction": "S Ostbahnhof (Berlin)",
+                                    "when": "2024-08-02T20:08:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:08:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|82813|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re2",
+                                        "fahrtNr": "1012",
+                                        "name": "RE2",
+                                        "public": true,
+                                        "adminCode": "800165",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "Cottbus, Hauptbahnhof",
+                                    "when": "2024-08-02T20:17:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:17:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|82408|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re8",
+                                        "fahrtNr": "62030",
+                                        "name": "RE8",
+                                        "public": true,
+                                        "adminCode": "ODRE8_",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                                            "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                                        }
+                                    },
+                                    "direction": "Flughafen BER",
+                                    "when": "2024-08-02T20:33:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:33:00+02:00",
+                                    "delay": null
+                                }
+                            ]
+                        },
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900120005",
+                                "name": "S Ostbahnhof (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900120005",
+                                    "latitude": 52.510335,
+                                    "longitude": 13.435089
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900120005"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900120544",
+                                "name": "East Side Gallery (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900120544",
+                                    "latitude": 52.505957,
+                                    "longitude": 13.438388
+                                },
+                                "products": {
+                                    "suburban": false,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900120544"
+                            },
+                            "departure": "2024-08-02T20:09:00+02:00",
+                            "plannedDeparture": "2024-08-02T20:09:00+02:00",
+                            "departureDelay": null,
+                            "arrival": "2024-08-02T20:17:00+02:00",
+                            "plannedArrival": "2024-08-02T20:17:00+02:00",
+                            "arrivalDelay": null,
+                            "public": true,
+                            "walking": true,
+                            "distance": 670
+                        }
+                    ],
+                    "refreshToken": "\u00b6HKI\u00b6T$A=1@O=S+U Zoologischer Garten Bhf (Berlin)@L=900023201@a=128@$A=1@O=S Ostbahnhof (Berlin)@L=900120005@a=128@$202408021953$202408022009$     RE1$$1$$$$$$\u00a7G@F$A=1@O=S Ostbahnhof (Berlin)@L=900120005@a=128@$A=1@O=East Side Gallery (Berlin)@L=900120544@a=128@$202408022009$202408022017$$$1$$$$$$\u00b6GP\u00b6ft@0@2000@120@-1@100@1@0@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$\u00a7bt@0@2000@120@-1@100@1@0@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$\u00a7tf@$f@$f@$f@$f@$f@$\u00a7\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#81#AM2#0#RT#7#\u00b6KRCC\u00b6#VE#1#\u00b6PC\u00b6eyJncnBJZCI6Ik9FViJ9",
+                    "cycle": {
+                        "min": 180
+                    }
+                },
+                {
+                    "type": "journey",
+                    "legs": [
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900023201",
+                                "name": "S+U Zoologischer Garten Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900023201",
+                                    "latitude": 52.506919,
+                                    "longitude": 13.332711
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900023201"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900120005",
+                                "name": "S Ostbahnhof (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900120005",
+                                    "latitude": 52.510335,
+                                    "longitude": 13.435089
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900120005"
+                            },
+                            "departure": "2024-08-02T19:53:00+02:00",
+                            "plannedDeparture": "2024-08-02T19:53:00+02:00",
+                            "departureDelay": 0,
+                            "arrival": "2024-08-02T20:09:00+02:00",
+                            "plannedArrival": "2024-08-02T20:09:00+02:00",
+                            "arrivalDelay": 0,
+                            "reachable": true,
+                            "tripId": "1|82227|0|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "re1",
+                                "fahrtNr": "73742",
+                                "name": "RE1",
+                                "public": true,
+                                "adminCode": "ODRE1_",
+                                "productName": "RE",
+                                "mode": "train",
+                                "product": "regional",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                                    "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                                }
+                            },
+                            "direction": "S Ostbahnhof (Berlin)",
+                            "arrivalPlatform": "1",
+                            "plannedArrivalPlatform": "1",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "2",
+                            "plannedDeparturePlatform": "2",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Zoologischer Garten Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S Ostbahnhof (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "ez",
+                                    "text": "Fahrradmitnahme leicht gemacht: www.vbb.de/radimregio"
+                                },
+                                {
+                                    "id": "232366",
+                                    "type": "warning",
+                                    "summary": "Information.",
+                                    "text": "Bitte beachten Sie, dass es aufgrund der Sperrung der S-Bahn zu einem erh\u00f6hten Fahrgastaufkommen auf den Linien RE1 und RE8 kommt. Die Mitnahme von Fahrr\u00e4dern ist daher nur begrenzt m\u00f6glich. Bitte nutzen Sie zudem die gesamte Zugl\u00e4nge und verteilen sich gleichm\u00e4\u00dfig am Bahnsteig. Die Halteposition der Z\u00fcge k\u00f6nnen Sie an den Stationen der Berliner Stadtbahn (Ausnahme: Alexanderplatz) den Anzeigern am Bahnsteig entnehmen.",
+                                    "icon": {
+                                        "type": "HIM5",
+                                        "title": null
+                                    },
+                                    "priority": 32,
+                                    "products": {
+                                        "suburban": false,
+                                        "subway": false,
+                                        "tram": false,
+                                        "bus": false,
+                                        "ferry": false,
+                                        "express": false,
+                                        "regional": true
+                                    },
+                                    "company": "VBB",
+                                    "categories": [
+                                        5
+                                    ],
+                                    "validFrom": "2024-07-25T00:00:00+02:00",
+                                    "validUntil": "2024-09-03T23:59:00+02:00",
+                                    "modified": "2024-07-25T07:37:13+02:00"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 180,
+                                "max": 960,
+                                "nr": 15
+                            },
+                            "alternatives": [
+                                {
+                                    "tripId": "1|93382|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re4",
+                                        "fahrtNr": "47",
+                                        "name": "RE4",
+                                        "public": true,
+                                        "adminCode": "800158",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "Luckenwalde, Bahnhof",
+                                    "when": "2024-08-02T20:00:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:00:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|82663|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "rb23",
+                                        "fahrtNr": "829",
+                                        "name": "RB23",
+                                        "public": true,
+                                        "adminCode": "800165",
+                                        "productName": "RB",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "Flughafen BER",
+                                    "when": "2024-08-02T20:04:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:04:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|82254|11|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re1",
+                                        "fahrtNr": "73784",
+                                        "name": "RE1",
+                                        "public": true,
+                                        "adminCode": "ODRE1_",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                                            "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                                        }
+                                    },
+                                    "direction": "S Ostbahnhof (Berlin)",
+                                    "when": "2024-08-02T20:08:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:08:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|82813|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re2",
+                                        "fahrtNr": "1012",
+                                        "name": "RE2",
+                                        "public": true,
+                                        "adminCode": "800165",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "Cottbus, Hauptbahnhof",
+                                    "when": "2024-08-02T20:17:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:17:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|82408|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re8",
+                                        "fahrtNr": "62030",
+                                        "name": "RE8",
+                                        "public": true,
+                                        "adminCode": "ODRE8_",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                                            "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                                        }
+                                    },
+                                    "direction": "Flughafen BER",
+                                    "when": "2024-08-02T20:33:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:33:00+02:00",
+                                    "delay": null
+                                }
+                            ]
+                        },
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900120005",
+                                "name": "S Ostbahnhof (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900120005",
+                                    "latitude": 52.510335,
+                                    "longitude": 13.435089
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900120005"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900120544",
+                                "name": "East Side Gallery (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900120544",
+                                    "latitude": 52.505957,
+                                    "longitude": 13.438388
+                                },
+                                "products": {
+                                    "suburban": false,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900120544"
+                            },
+                            "departure": "2024-08-02T20:23:00+02:00",
+                            "plannedDeparture": "2024-08-02T20:23:00+02:00",
+                            "departureDelay": null,
+                            "arrival": "2024-08-02T20:26:00+02:00",
+                            "plannedArrival": "2024-08-02T20:26:00+02:00",
+                            "arrivalDelay": null,
+                            "reachable": true,
+                            "tripId": "1|56264|0|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "300",
+                                "fahrtNr": "114324",
+                                "name": "300",
+                                "public": true,
+                                "adminCode": "BVB---",
+                                "productName": "Bus",
+                                "mode": "bus",
+                                "product": "bus",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "berliner-verkehrsbetriebe",
+                                    "name": "Berliner Verkehrsbetriebe"
+                                }
+                            },
+                            "direction": "S+U Warschauer Str.",
+                            "arrivalPlatform": null,
+                            "plannedArrivalPlatform": null,
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": null,
+                            "plannedDeparturePlatform": null,
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [],
+                            "cycle": {
+                                "min": 1140,
+                                "max": 1260,
+                                "nr": 7
+                            },
+                            "occupancy": "medium"
+                        }
+                    ],
+                    "refreshToken": "\u00b6HKI\u00b6T$A=1@O=S+U Zoologischer Garten Bhf (Berlin)@L=900023201@a=128@$A=1@O=S Ostbahnhof (Berlin)@L=900120005@a=128@$202408021953$202408022009$     RE1$$1$$$$$$\u00a7T$A=1@O=S Ostbahnhof (Berlin)@L=900120005@a=128@$A=1@O=East Side Gallery (Berlin)@L=900120544@a=128@$202408022023$202408022026$     300$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#81#AM2#0#RT#7#\u00b6KRCC\u00b6#VE#1#\u00b6PC\u00b6eyJncnBJZCI6Ik9FViJ9",
+                    "cycle": {
+                        "min": 1140
+                    }
+                },
+                {
+                    "type": "journey",
+                    "legs": [
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900023201",
+                                "name": "S+U Zoologischer Garten Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900023201",
+                                    "latitude": 52.506919,
+                                    "longitude": 13.332711
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900023201"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900023203",
+                                "name": "U Kurf\u00fcrstendamm (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900023203",
+                                    "latitude": 52.503763,
+                                    "longitude": 13.331416
+                                },
+                                "products": {
+                                    "suburban": false,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900023203"
+                            },
+                            "departure": "2024-08-02T19:57:00+02:00",
+                            "plannedDeparture": "2024-08-02T19:57:00+02:00",
+                            "departureDelay": null,
+                            "arrival": "2024-08-02T19:59:00+02:00",
+                            "plannedArrival": "2024-08-02T19:59:00+02:00",
+                            "arrivalDelay": null,
+                            "reachable": true,
+                            "tripId": "1|65224|11|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "u9",
+                                "fahrtNr": "18643",
+                                "name": "U9",
+                                "public": true,
+                                "adminCode": "BVU---",
+                                "productName": "U",
+                                "mode": "train",
+                                "product": "subway",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "berliner-verkehrsbetriebe",
+                                    "name": "Berliner Verkehrsbetriebe"
+                                }
+                            },
+                            "direction": "Rathaus Steglitz",
+                            "arrivalPlatform": "1 (U9)",
+                            "plannedArrivalPlatform": "1 (U9)",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "1 (U9)",
+                            "plannedDeparturePlatform": "1 (U9)",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Zoologischer Garten Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (U Kurf\u00fcrstendamm (Berlin))"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 300,
+                                "max": 600,
+                                "nr": 18
+                            },
+                            "occupancy": "medium"
+                        },
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900023203",
+                                "name": "U Kurf\u00fcrstendamm (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900023203",
+                                    "latitude": 52.503763,
+                                    "longitude": 13.331416
+                                },
+                                "products": {
+                                    "suburban": false,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900023203"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900120004",
+                                "name": "S+U Warschauer Str. (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900120004",
+                                    "latitude": 52.505768,
+                                    "longitude": 13.449157
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": true,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900120004"
+                            },
+                            "departure": "2024-08-02T20:01:00+02:00",
+                            "plannedDeparture": "2024-08-02T20:01:00+02:00",
+                            "departureDelay": null,
+                            "arrival": "2024-08-02T20:20:00+02:00",
+                            "plannedArrival": "2024-08-02T20:20:00+02:00",
+                            "arrivalDelay": null,
+                            "reachable": true,
+                            "tripId": "1|63144|16|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "u1",
+                                "fahrtNr": "11772",
+                                "name": "U1",
+                                "public": true,
+                                "adminCode": "BVU---",
+                                "productName": "U",
+                                "mode": "train",
+                                "product": "subway",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "berliner-verkehrsbetriebe",
+                                    "name": "Berliner Verkehrsbetriebe"
+                                }
+                            },
+                            "direction": "Warschauer Stra\u00dfe",
+                            "arrivalPlatform": "1",
+                            "plannedArrivalPlatform": "1",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "2 (U3)",
+                            "plannedDeparturePlatform": "2 (U3)",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (U Kurf\u00fcrstendamm (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Warschauer Str. (Berlin))"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 600,
+                                "max": 600,
+                                "nr": 13
+                            },
+                            "occupancy": "high"
+                        },
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900120004",
+                                "name": "S+U Warschauer Str. (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900120004",
+                                    "latitude": 52.505768,
+                                    "longitude": 13.449157
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": true,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900120004"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900120544",
+                                "name": "East Side Gallery (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900120544",
+                                    "latitude": 52.505957,
+                                    "longitude": 13.438388
+                                },
+                                "products": {
+                                    "suburban": false,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900120544"
+                            },
+                            "departure": "2024-08-02T20:23:00+02:00",
+                            "plannedDeparture": "2024-08-02T20:23:00+02:00",
+                            "departureDelay": null,
+                            "arrival": "2024-08-02T20:25:00+02:00",
+                            "plannedArrival": "2024-08-02T20:25:00+02:00",
+                            "arrivalDelay": null,
+                            "reachable": true,
+                            "tripId": "1|56307|0|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "300",
+                                "fahrtNr": "114169",
+                                "name": "300",
+                                "public": true,
+                                "adminCode": "BVB---",
+                                "productName": "Bus",
+                                "mode": "bus",
+                                "product": "bus",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "berliner-verkehrsbetriebe",
+                                    "name": "Berliner Verkehrsbetriebe"
+                                }
+                            },
+                            "direction": "Tiergarten, Philharmonie",
+                            "arrivalPlatform": null,
+                            "plannedArrivalPlatform": null,
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "Pos. 7",
+                            "plannedDeparturePlatform": "Pos. 7",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [],
+                            "cycle": {
+                                "min": 1200,
+                                "max": 1200,
+                                "nr": 7
+                            },
+                            "occupancy": "medium"
+                        }
+                    ],
+                    "refreshToken": "\u00b6HKI\u00b6T$A=1@O=S+U Zoologischer Garten Bhf (Berlin)@L=900023201@a=128@$A=1@O=U Kurf\u00fcrstendamm (Berlin)@L=900023203@a=128@$202408021957$202408021959$      U9$$1$$$$$$\u00a7T$A=1@O=U Kurf\u00fcrstendamm (Berlin)@L=900023203@a=128@$A=1@O=S+U Warschauer Str. (Berlin)@L=900120004@a=128@$202408022001$202408022020$      U1$$1$$$$$$\u00a7T$A=1@O=S+U Warschauer Str. (Berlin)@L=900120004@a=128@$A=1@O=East Side Gallery (Berlin)@L=900120544@a=128@$202408022023$202408022025$     300$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#81#AM2#0#RT#7#\u00b6KRCC\u00b6#VE#1#\u00b6PC\u00b6eyJncnBJZCI6Ik9FViJ9",
+                    "cycle": {
+                        "min": 1200
+                    }
+                },
+                {
+                    "type": "journey",
+                    "legs": [
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900023201",
+                                "name": "S+U Zoologischer Garten Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900023201",
+                                    "latitude": 52.506919,
+                                    "longitude": 13.332711
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900023201"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900056101",
+                                "name": "U Wittenbergplatz (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900056101",
+                                    "latitude": 52.502109,
+                                    "longitude": 13.342563
+                                },
+                                "products": {
+                                    "suburban": false,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900056101"
+                            },
+                            "departure": "2024-08-02T19:58:00+02:00",
+                            "plannedDeparture": "2024-08-02T19:58:00+02:00",
+                            "departureDelay": null,
+                            "arrival": "2024-08-02T20:00:00+02:00",
+                            "plannedArrival": "2024-08-02T20:00:00+02:00",
+                            "arrivalDelay": null,
+                            "reachable": true,
+                            "tripId": "1|63322|4|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "u2",
+                                "fahrtNr": "12282",
+                                "name": "U2",
+                                "public": true,
+                                "adminCode": "BVU---",
+                                "productName": "U",
+                                "mode": "train",
+                                "product": "subway",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "berliner-verkehrsbetriebe",
+                                    "name": "Berliner Verkehrsbetriebe"
+                                }
+                            },
+                            "direction": "Pankow",
+                            "arrivalPlatform": "2",
+                            "plannedArrivalPlatform": "2",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "2 (U2)",
+                            "plannedDeparturePlatform": "2 (U2)",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Zoologischer Garten Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (U Wittenbergplatz (Berlin))"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 300,
+                                "max": 300,
+                                "nr": 25
+                            },
+                            "occupancy": "medium"
+                        },
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900056101",
+                                "name": "U Wittenbergplatz (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900056101",
+                                    "latitude": 52.502109,
+                                    "longitude": 13.342563
+                                },
+                                "products": {
+                                    "suburban": false,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900056101"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900120004",
+                                "name": "S+U Warschauer Str. (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900120004",
+                                    "latitude": 52.505768,
+                                    "longitude": 13.449157
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": true,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900120004"
+                            },
+                            "departure": "2024-08-02T20:02:00+02:00",
+                            "plannedDeparture": "2024-08-02T20:02:00+02:00",
+                            "departureDelay": null,
+                            "arrival": "2024-08-02T20:20:00+02:00",
+                            "plannedArrival": "2024-08-02T20:20:00+02:00",
+                            "arrivalDelay": null,
+                            "reachable": true,
+                            "tripId": "1|63144|16|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "u1",
+                                "fahrtNr": "11772",
+                                "name": "U1",
+                                "public": true,
+                                "adminCode": "BVU---",
+                                "productName": "U",
+                                "mode": "train",
+                                "product": "subway",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "berliner-verkehrsbetriebe",
+                                    "name": "Berliner Verkehrsbetriebe"
+                                }
+                            },
+                            "direction": "Warschauer Stra\u00dfe",
+                            "arrivalPlatform": "1",
+                            "plannedArrivalPlatform": "1",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "6",
+                            "plannedDeparturePlatform": "6",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (U Wittenbergplatz (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Warschauer Str. (Berlin))"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 180,
+                                "max": 420,
+                                "nr": 25
+                            },
+                            "occupancy": "high"
+                        },
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900120004",
+                                "name": "S+U Warschauer Str. (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900120004",
+                                    "latitude": 52.505768,
+                                    "longitude": 13.449157
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": true,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900120004"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900120544",
+                                "name": "East Side Gallery (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900120544",
+                                    "latitude": 52.505957,
+                                    "longitude": 13.438388
+                                },
+                                "products": {
+                                    "suburban": false,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900120544"
+                            },
+                            "departure": "2024-08-02T20:23:00+02:00",
+                            "plannedDeparture": "2024-08-02T20:23:00+02:00",
+                            "departureDelay": null,
+                            "arrival": "2024-08-02T20:25:00+02:00",
+                            "plannedArrival": "2024-08-02T20:25:00+02:00",
+                            "arrivalDelay": null,
+                            "reachable": true,
+                            "tripId": "1|56307|0|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "300",
+                                "fahrtNr": "114169",
+                                "name": "300",
+                                "public": true,
+                                "adminCode": "BVB---",
+                                "productName": "Bus",
+                                "mode": "bus",
+                                "product": "bus",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "berliner-verkehrsbetriebe",
+                                    "name": "Berliner Verkehrsbetriebe"
+                                }
+                            },
+                            "direction": "Tiergarten, Philharmonie",
+                            "arrivalPlatform": null,
+                            "plannedArrivalPlatform": null,
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "Pos. 7",
+                            "plannedDeparturePlatform": "Pos. 7",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [],
+                            "cycle": {
+                                "min": 1200,
+                                "max": 1200,
+                                "nr": 7
+                            },
+                            "occupancy": "medium"
+                        }
+                    ],
+                    "refreshToken": "\u00b6HKI\u00b6T$A=1@O=S+U Zoologischer Garten Bhf (Berlin)@L=900023201@a=128@$A=1@O=U Wittenbergplatz (Berlin)@L=900056101@a=128@$202408021958$202408022000$      U2$$1$$$$$$\u00a7T$A=1@O=U Wittenbergplatz (Berlin)@L=900056101@a=128@$A=1@O=S+U Warschauer Str. (Berlin)@L=900120004@a=128@$202408022002$202408022020$      U1$$1$$$$$$\u00a7T$A=1@O=S+U Warschauer Str. (Berlin)@L=900120004@a=128@$A=1@O=East Side Gallery (Berlin)@L=900120544@a=128@$202408022023$202408022025$     300$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#81#AM2#0#RT#7#\u00b6KRCC\u00b6#VE#1#\u00b6PC\u00b6eyJncnBJZCI6Ik9FViJ9",
+                    "cycle": {
+                        "min": 1200
+                    }
+                },
+                {
+                    "type": "journey",
+                    "legs": [
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900023201",
+                                "name": "S+U Zoologischer Garten Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900023201",
+                                    "latitude": 52.506919,
+                                    "longitude": 13.332711
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900023201"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900120005",
+                                "name": "S Ostbahnhof (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900120005",
+                                    "latitude": 52.510335,
+                                    "longitude": 13.435089
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900120005"
+                            },
+                            "departure": "2024-08-02T20:04:00+02:00",
+                            "plannedDeparture": "2024-08-02T20:04:00+02:00",
+                            "departureDelay": 0,
+                            "arrival": "2024-08-02T20:20:00+02:00",
+                            "plannedArrival": "2024-08-02T20:20:00+02:00",
+                            "arrivalDelay": 0,
+                            "reachable": true,
+                            "tripId": "1|82663|0|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "rb23",
+                                "fahrtNr": "829",
+                                "name": "RB23",
+                                "public": true,
+                                "adminCode": "800165",
+                                "productName": "RB",
+                                "mode": "train",
+                                "product": "regional",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "db-regio-ag",
+                                    "name": "DB Regio AG"
+                                }
+                            },
+                            "direction": "Flughafen BER",
+                            "arrivalPlatform": "1",
+                            "plannedArrivalPlatform": "2",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "1",
+                            "plannedDeparturePlatform": "1",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Zoologischer Garten Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S Ostbahnhof (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "ek",
+                                    "text": "Fahrzeuggebundene Einstiegshilfe vorhanden"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "WV",
+                                    "text": "WLAN verf\u00fcgbar"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 180,
+                                "max": 960,
+                                "nr": 14
+                            },
+                            "alternatives": [
+                                {
+                                    "tripId": "1|82254|11|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re1",
+                                        "fahrtNr": "73784",
+                                        "name": "RE1",
+                                        "public": true,
+                                        "adminCode": "ODRE1_",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                                            "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                                        }
+                                    },
+                                    "direction": "S Ostbahnhof (Berlin)",
+                                    "when": "2024-08-02T20:08:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:08:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|82813|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re2",
+                                        "fahrtNr": "1012",
+                                        "name": "RE2",
+                                        "public": true,
+                                        "adminCode": "800165",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "Cottbus, Hauptbahnhof",
+                                    "when": "2024-08-02T20:17:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:17:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|82408|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re8",
+                                        "fahrtNr": "62030",
+                                        "name": "RE8",
+                                        "public": true,
+                                        "adminCode": "ODRE8_",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                                            "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                                        }
+                                    },
+                                    "direction": "Flughafen BER",
+                                    "when": "2024-08-02T20:33:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:33:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|83200|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re7",
+                                        "fahrtNr": "1228",
+                                        "name": "RE7",
+                                        "public": true,
+                                        "adminCode": "800165",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "Cottbus, Hauptbahnhof",
+                                    "when": "2024-08-02T20:40:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:40:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|82230|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re1",
+                                        "fahrtNr": "73744",
+                                        "name": "RE1",
+                                        "public": true,
+                                        "adminCode": "ODRE1_",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                                            "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                                        }
+                                    },
+                                    "direction": "S Ostbahnhof (Berlin)",
+                                    "when": "2024-08-02T20:53:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:53:00+02:00",
+                                    "delay": null
+                                }
+                            ]
+                        },
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900120005",
+                                "name": "S Ostbahnhof (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900120005",
+                                    "latitude": 52.510335,
+                                    "longitude": 13.435089
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900120005"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900120544",
+                                "name": "East Side Gallery (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900120544",
+                                    "latitude": 52.505957,
+                                    "longitude": 13.438388
+                                },
+                                "products": {
+                                    "suburban": false,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900120544"
+                            },
+                            "departure": "2024-08-02T20:20:00+02:00",
+                            "plannedDeparture": "2024-08-02T20:20:00+02:00",
+                            "departureDelay": null,
+                            "arrival": "2024-08-02T20:28:00+02:00",
+                            "plannedArrival": "2024-08-02T20:28:00+02:00",
+                            "arrivalDelay": null,
+                            "public": true,
+                            "walking": true,
+                            "distance": 670
+                        }
+                    ],
+                    "refreshToken": "\u00b6HKI\u00b6T$A=1@O=S+U Zoologischer Garten Bhf (Berlin)@L=900023201@a=128@$A=1@O=S Ostbahnhof (Berlin)@L=900120005@a=128@$202408022004$202408022020$    RB23$$1$$$$$$\u00a7G@F$A=1@O=S Ostbahnhof (Berlin)@L=900120005@a=128@$A=1@O=East Side Gallery (Berlin)@L=900120544@a=128@$202408022020$202408022028$$$1$$$$$$\u00b6GP\u00b6ft@0@2000@120@-1@100@1@0@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$\u00a7bt@0@2000@120@-1@100@1@0@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$\u00a7tf@$f@$f@$f@$f@$f@$\u00a7\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#81#AM2#0#RT#7#\u00b6KRCC\u00b6#VE#1#\u00b6PC\u00b6eyJncnBJZCI6Ik9FViJ9",
+                    "cycle": {
+                        "min": 180
+                    }
+                }
+            ],
+            "realtimeDataUpdatedAt": 1722611681
+        }
+    },
+    {
+        "startingAddress": "Gesundbrunnen",
+        "destinationAddress": "Tempelhof",
+        "dateTime": "2024-08-02T17:47:47Z",
+        "fromStops": [
+            {
+                "type": "stop",
+                "id": "900007102",
+                "name": "S+U Gesundbrunnen Bhf (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900007102",
+                    "latitude": 52.548638,
+                    "longitude": 13.388372
+                },
+                "products": {
+                    "suburban": true,
+                    "subway": true,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": true,
+                    "regional": true
+                },
+                "stationDHID": "de:11000:900007102"
+            },
+            {
+                "type": "stop",
+                "id": "900321032",
+                "name": "Bad Freienwalde, Gesundbrunnenstr.",
+                "location": {
+                    "type": "location",
+                    "id": "900321032",
+                    "latitude": 52.783058,
+                    "longitude": 14.033501
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                },
+                "stationDHID": "de:12064:900321032"
+            }
+        ],
+        "toStops": [
+            {
+                "type": "stop",
+                "id": "900068201",
+                "name": "S+U Tempelhof (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900068201",
+                    "latitude": 52.470575,
+                    "longitude": 13.3859
+                },
+                "products": {
+                    "suburban": true,
+                    "subway": true,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                },
+                "stationDHID": "de:11000:900068201"
+            },
+            {
+                "type": "stop",
+                "id": "900068202",
+                "name": "U Alt-Tempelhof (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900068202",
+                    "latitude": 52.465928,
+                    "longitude": 13.385792
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": true,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                },
+                "stationDHID": "de:11000:900068202"
+            },
+            {
+                "type": "stop",
+                "id": "900068354",
+                "name": "Rathaus Tempelhof (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900068354",
+                    "latitude": 52.462845,
+                    "longitude": 13.385316
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                },
+                "stationDHID": "de:11000:900068354"
+            },
+            {
+                "type": "stop",
+                "id": "900068272",
+                "name": "U Tempelhof/Ringbahnstr. (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900068272",
+                    "latitude": 52.468804,
+                    "longitude": 13.385846
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                },
+                "stationDHID": "de:11000:900068272"
+            },
+            {
+                "type": "stop",
+                "id": "900080101",
+                "name": "Gradestr./Tempelhofer Weg (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900080101",
+                    "latitude": 52.452444,
+                    "longitude": 13.433111
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                },
+                "stationDHID": "de:11000:900080101"
+            }
+        ],
+        "journeyData": {
+            "earlierRef": "3|OB|MT#14#11267#11267#11294#11294#0#0#165#11267#1#0#10#0#0#-2147483648#1#2|PDH#448850cae069502eb320bc0633c64f62|RD#2082024|RT#194747|US#1|RS#INIT",
+            "laterRef": "3|OF|MT#14#11278#11278#11302#11302#0#0#165#11272#7#0#10#0#0#-2147483648#1#2|PDH#448850cae069502eb320bc0633c64f62|RD#2082024|RT#194747|US#1|RS#INIT",
+            "journeys": [
+                {
+                    "type": "journey",
+                    "legs": [
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900007102",
+                                "name": "S+U Gesundbrunnen Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900007102",
+                                    "latitude": 52.548638,
+                                    "longitude": 13.388372
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900007102"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900100001",
+                                "name": "S+U Friedrichstr. Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900100001",
+                                    "latitude": 52.520519,
+                                    "longitude": 13.386448
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": true,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900100001"
+                            },
+                            "departure": "2024-08-02T19:47:00+02:00",
+                            "plannedDeparture": "2024-08-02T19:47:00+02:00",
+                            "departureDelay": 0,
+                            "arrival": "2024-08-02T19:55:00+02:00",
+                            "plannedArrival": "2024-08-02T19:55:00+02:00",
+                            "arrivalDelay": 0,
+                            "reachable": true,
+                            "tripId": "1|79|34|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "s1",
+                                "fahrtNr": "18701",
+                                "name": "S1",
+                                "public": true,
+                                "adminCode": "DBS---",
+                                "productName": "S",
+                                "mode": "train",
+                                "product": "suburban",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "s-bahn-berlin-gmbh",
+                                    "name": "S-Bahn Berlin GmbH"
+                                }
+                            },
+                            "direction": "S Wannsee Bhf (Berlin)",
+                            "arrivalPlatform": "11",
+                            "plannedArrivalPlatform": "11",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "1",
+                            "plannedDeparturePlatform": "1",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Gesundbrunnen Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Friedrichstr. Bhf (Berlin))"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 120,
+                                "max": 420,
+                                "nr": 35
+                            }
+                        },
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900100001",
+                                "name": "S+U Friedrichstr. Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900100001",
+                                    "latitude": 52.520519,
+                                    "longitude": 13.386448
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": true,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900100001"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900068201",
+                                "name": "S+U Tempelhof (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900068201",
+                                    "latitude": 52.470575,
+                                    "longitude": 13.3859
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900068201"
+                            },
+                            "departure": "2024-08-02T20:02:00+02:00",
+                            "plannedDeparture": "2024-08-02T20:02:00+02:00",
+                            "departureDelay": null,
+                            "arrival": "2024-08-02T20:14:00+02:00",
+                            "plannedArrival": "2024-08-02T20:14:00+02:00",
+                            "arrivalDelay": null,
+                            "reachable": true,
+                            "tripId": "1|64502|11|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "u6",
+                                "fahrtNr": "16675",
+                                "name": "U6",
+                                "public": true,
+                                "adminCode": "BVU---",
+                                "productName": "U",
+                                "mode": "train",
+                                "product": "subway",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "berliner-verkehrsbetriebe",
+                                    "name": "Berliner Verkehrsbetriebe"
+                                }
+                            },
+                            "direction": "Alt-Mariendorf",
+                            "arrivalPlatform": "1",
+                            "plannedArrivalPlatform": "1",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "1",
+                            "plannedDeparturePlatform": "1",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Friedrichstr. Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Tempelhof (Berlin))"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 300,
+                                "max": 600,
+                                "nr": 19
+                            },
+                            "occupancy": "medium"
+                        }
+                    ],
+                    "refreshToken": "\u00b6HKI\u00b6T$A=1@O=S+U Gesundbrunnen Bhf (Berlin)@L=900007102@a=128@$A=1@O=S+U Friedrichstr. Bhf (Berlin)@L=900100001@a=128@$202408021947$202408021955$      S1$$1$$$$$$\u00a7T$A=1@O=S+U Friedrichstr. Bhf (Berlin)@L=900100001@a=128@$A=1@O=S+U Tempelhof (Berlin)@L=900068201@a=128@$202408022002$202408022014$      U6$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#81#AM2#0#RT#7#\u00b6KRCC\u00b6#VE#1#\u00b6PC\u00b6eyJncnBJZCI6Ik9FViJ9",
+                    "cycle": {
+                        "min": 300
+                    }
+                },
+                {
+                    "type": "journey",
+                    "legs": [
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900007102",
+                                "name": "S+U Gesundbrunnen Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900007102",
+                                    "latitude": 52.548638,
+                                    "longitude": 13.388372
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900007102"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900058101",
+                                "name": "S S\u00fcdkreuz Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900058101",
+                                    "latitude": 52.475501,
+                                    "longitude": 13.365548
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900058101"
+                            },
+                            "departure": "2024-08-02T19:50:00+02:00",
+                            "plannedDeparture": "2024-08-02T19:50:00+02:00",
+                            "departureDelay": 0,
+                            "arrival": "2024-08-02T20:09:00+02:00",
+                            "plannedArrival": "2024-08-02T20:09:00+02:00",
+                            "arrivalDelay": 0,
+                            "reachable": true,
+                            "tripId": "1|603|46|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "s2",
+                                "fahrtNr": "19716",
+                                "name": "S2",
+                                "public": true,
+                                "adminCode": "DBS---",
+                                "productName": "S",
+                                "mode": "train",
+                                "product": "suburban",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "s-bahn-berlin-gmbh",
+                                    "name": "S-Bahn Berlin GmbH"
+                                }
+                            },
+                            "direction": "S Lichtenrade (Berlin)",
+                            "arrivalPlatform": "1",
+                            "plannedArrivalPlatform": "1",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "1",
+                            "plannedDeparturePlatform": "1",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Gesundbrunnen Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S S\u00fcdkreuz Bhf (Berlin))"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 300,
+                                "max": 600,
+                                "nr": 22
+                            }
+                        },
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900058101",
+                                "name": "S S\u00fcdkreuz Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900058101",
+                                    "latitude": 52.475501,
+                                    "longitude": 13.365548
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900058101"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900068201",
+                                "name": "S+U Tempelhof (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900068201",
+                                    "latitude": 52.470575,
+                                    "longitude": 13.3859
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900068201"
+                            },
+                            "departure": "2024-08-02T20:13:00+02:00",
+                            "plannedDeparture": "2024-08-02T20:13:00+02:00",
+                            "departureDelay": 0,
+                            "arrival": "2024-08-02T20:15:00+02:00",
+                            "plannedArrival": "2024-08-02T20:15:00+02:00",
+                            "arrivalDelay": 0,
+                            "reachable": true,
+                            "tripId": "1|2315|46|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "s46",
+                                "fahrtNr": "23069",
+                                "name": "S46",
+                                "public": true,
+                                "adminCode": "DBS---",
+                                "productName": "S",
+                                "mode": "train",
+                                "product": "suburban",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "s-bahn-berlin-gmbh",
+                                    "name": "S-Bahn Berlin GmbH"
+                                }
+                            },
+                            "direction": "S Zeuthen",
+                            "arrivalPlatform": "2",
+                            "plannedArrivalPlatform": "2",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "12",
+                            "plannedDeparturePlatform": "12",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S S\u00fcdkreuz Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Tempelhof (Berlin))"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 120,
+                                "max": 480,
+                                "nr": 25
+                            },
+                            "alternatives": [
+                                {
+                                    "tripId": "1|90626|7|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "s42",
+                                        "fahrtNr": "1696",
+                                        "name": "S42",
+                                        "public": true,
+                                        "adminCode": "DBS---",
+                                        "productName": "S",
+                                        "mode": "train",
+                                        "product": "suburban",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "s-bahn-berlin-gmbh",
+                                            "name": "S-Bahn Berlin GmbH"
+                                        }
+                                    },
+                                    "direction": "Ringbahn S 42",
+                                    "when": "2024-08-02T20:20:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:20:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|2084|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "s45",
+                                        "fahrtNr": "22835",
+                                        "name": "S45",
+                                        "public": true,
+                                        "adminCode": "DBS---",
+                                        "productName": "S",
+                                        "mode": "train",
+                                        "product": "suburban",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "s-bahn-berlin-gmbh",
+                                            "name": "S-Bahn Berlin GmbH"
+                                        }
+                                    },
+                                    "direction": "Flughafen BER",
+                                    "when": "2024-08-02T20:28:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:28:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|90626|8|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "s42",
+                                        "fahrtNr": "1692",
+                                        "name": "S42",
+                                        "public": true,
+                                        "adminCode": "DBS---",
+                                        "productName": "S",
+                                        "mode": "train",
+                                        "product": "suburban",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "s-bahn-berlin-gmbh",
+                                            "name": "S-Bahn Berlin GmbH"
+                                        }
+                                    },
+                                    "direction": "Ringbahn S 42",
+                                    "when": "2024-08-02T20:30:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:30:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|2315|47|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "s46",
+                                        "fahrtNr": "23068",
+                                        "name": "S46",
+                                        "public": true,
+                                        "adminCode": "DBS---",
+                                        "productName": "S",
+                                        "mode": "train",
+                                        "product": "suburban",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "s-bahn-berlin-gmbh",
+                                            "name": "S-Bahn Berlin GmbH"
+                                        }
+                                    },
+                                    "direction": "S Zeuthen",
+                                    "when": "2024-08-02T20:33:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:33:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|90626|9|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "s42",
+                                        "fahrtNr": "1688",
+                                        "name": "S42",
+                                        "public": true,
+                                        "adminCode": "DBS---",
+                                        "productName": "S",
+                                        "mode": "train",
+                                        "product": "suburban",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "s-bahn-berlin-gmbh",
+                                            "name": "S-Bahn Berlin GmbH"
+                                        }
+                                    },
+                                    "direction": "Ringbahn S 42",
+                                    "when": "2024-08-02T20:40:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:40:00+02:00",
+                                    "delay": null
+                                }
+                            ]
+                        }
+                    ],
+                    "refreshToken": "\u00b6HKI\u00b6T$A=1@O=S+U Gesundbrunnen Bhf (Berlin)@L=900007102@a=128@$A=1@O=S S\u00fcdkreuz Bhf (Berlin)@L=900058101@a=128@$202408021950$202408022009$      S2$$1$$$$$$\u00a7T$A=1@O=S S\u00fcdkreuz Bhf (Berlin)@L=900058101@a=128@$A=1@O=S+U Tempelhof (Berlin)@L=900068201@a=128@$202408022013$202408022015$     S46$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#81#AM2#0#RT#7#\u00b6KRCC\u00b6#VE#1#\u00b6PC\u00b6eyJncnBJZCI6Ik9FViJ9",
+                    "cycle": {
+                        "min": 300
+                    }
+                },
+                {
+                    "type": "journey",
+                    "legs": [
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900007102",
+                                "name": "S+U Gesundbrunnen Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900007102",
+                                    "latitude": 52.548638,
+                                    "longitude": 13.388372
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900007102"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900068201",
+                                "name": "S+U Tempelhof (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900068201",
+                                    "latitude": 52.470575,
+                                    "longitude": 13.3859
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900068201"
+                            },
+                            "departure": null,
+                            "plannedDeparture": "2024-08-02T19:50:00+02:00",
+                            "departureDelay": null,
+                            "arrival": null,
+                            "plannedArrival": "2024-08-02T20:17:00+02:00",
+                            "arrivalDelay": null,
+                            "reachable": false,
+                            "tripId": "1|88047|0|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "s41",
+                                "fahrtNr": "270",
+                                "name": "S41",
+                                "public": true,
+                                "adminCode": "DBS---",
+                                "productName": "S",
+                                "mode": "train",
+                                "product": "suburban",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "s-bahn-berlin-gmbh",
+                                    "name": "S-Bahn Berlin GmbH"
+                                }
+                            },
+                            "direction": "Ringbahn S 41",
+                            "arrivalPlatform": null,
+                            "plannedArrivalPlatform": "1",
+                            "arrivalPrognosisType": null,
+                            "departurePlatform": null,
+                            "plannedDeparturePlatform": "3",
+                            "departurePrognosisType": null,
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Gesundbrunnen Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Tempelhof (Berlin))"
+                                },
+                                {
+                                    "id": "233908",
+                                    "type": "warning",
+                                    "summary": "Gro\u00dfst\u00f6rung.",
+                                    "text": "Wegen einer Beeintr\u00e4chtigung durch Vandalismus im Bereich Jungfernheide ist der Zugverkehr der Linien S41 und S42 zwischen Westend und Beusselstra\u00dfe unterbrochen. Ein Ersatzverkehr mit Bussen wurde eingerichtet. Zur weitr\u00e4umigen Umfahrung nutzen Sie bitte die Verkehrsmittel der BVG. Wir bitten um Ihr Verst\u00e4ndnis.\n<a href=\"https://sbahn.berlin/fahren/bauen-stoerung/S41/\" target=\"_blank\" rel=\"noopener\">St\u00f6rfallinfo</a>",
+                                    "icon": {
+                                        "type": "HIM2",
+                                        "title": null
+                                    },
+                                    "priority": 32,
+                                    "products": {
+                                        "suburban": true,
+                                        "subway": false,
+                                        "tram": false,
+                                        "bus": false,
+                                        "ferry": false,
+                                        "express": false,
+                                        "regional": false
+                                    },
+                                    "company": "VBB",
+                                    "categories": [
+                                        2
+                                    ],
+                                    "validFrom": "2024-08-02T04:27:00+02:00",
+                                    "validUntil": "2024-08-02T23:59:00+02:00",
+                                    "modified": "2024-08-02T14:30:55+02:00"
+                                },
+                                {
+                                    "type": "status",
+                                    "code": "text.realtime.journey.cancelled",
+                                    "text": "S41 has been cancelled"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 600,
+                                "max": 600,
+                                "nr": 12
+                            },
+                            "cancelled": true
+                        }
+                    ],
+                    "refreshToken": "\u00b6HKI\u00b6T$A=1@O=S+U Gesundbrunnen Bhf (Berlin)@L=900007102@a=128@$A=1@O=S+U Tempelhof (Berlin)@L=900068201@a=128@$202408021950$202408022017$     S41$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#81#AM2#0#RT#7#\u00b6KRCC\u00b6#VE#1#\u00b6PC\u00b6eyJncnBJZCI6Ik9FViJ9",
+                    "cycle": {
+                        "min": 600
+                    },
+                    "remarks": [
+                        {
+                            "type": "status",
+                            "code": "text.realtime.connection.cancelled",
+                            "text": "Trip is not possible"
+                        }
+                    ]
+                },
+                {
+                    "type": "journey",
+                    "legs": [
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900007102",
+                                "name": "S+U Gesundbrunnen Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900007102",
+                                    "latitude": 52.548638,
+                                    "longitude": 13.388372
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900007102"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900009104",
+                                "name": "S+U Wedding (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900009104",
+                                    "latitude": 52.542732,
+                                    "longitude": 13.366061
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900009104"
+                            },
+                            "departure": "2024-08-02T19:51:00+02:00",
+                            "plannedDeparture": "2024-08-02T19:51:00+02:00",
+                            "departureDelay": 0,
+                            "arrival": "2024-08-02T19:53:00+02:00",
+                            "plannedArrival": "2024-08-02T19:53:00+02:00",
+                            "arrivalDelay": 0,
+                            "reachable": true,
+                            "tripId": "1|90626|7|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "s42",
+                                "fahrtNr": "1720",
+                                "name": "S42",
+                                "public": true,
+                                "adminCode": "DBS---",
+                                "productName": "S",
+                                "mode": "train",
+                                "product": "suburban",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "s-bahn-berlin-gmbh",
+                                    "name": "S-Bahn Berlin GmbH"
+                                }
+                            },
+                            "direction": "Ringbahn S 42",
+                            "arrivalPlatform": "2",
+                            "plannedArrivalPlatform": "2",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "2",
+                            "plannedDeparturePlatform": "2",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Gesundbrunnen Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Wedding (Berlin))"
+                                },
+                                {
+                                    "id": "233908",
+                                    "type": "warning",
+                                    "summary": "Gro\u00dfst\u00f6rung.",
+                                    "text": "Wegen einer Beeintr\u00e4chtigung durch Vandalismus im Bereich Jungfernheide ist der Zugverkehr der Linien S41 und S42 zwischen Westend und Beusselstra\u00dfe unterbrochen. Ein Ersatzverkehr mit Bussen wurde eingerichtet. Zur weitr\u00e4umigen Umfahrung nutzen Sie bitte die Verkehrsmittel der BVG. Wir bitten um Ihr Verst\u00e4ndnis.\n<a href=\"https://sbahn.berlin/fahren/bauen-stoerung/S41/\" target=\"_blank\" rel=\"noopener\">St\u00f6rfallinfo</a>",
+                                    "icon": {
+                                        "type": "HIM2",
+                                        "title": null
+                                    },
+                                    "priority": 32,
+                                    "products": {
+                                        "suburban": true,
+                                        "subway": false,
+                                        "tram": false,
+                                        "bus": false,
+                                        "ferry": false,
+                                        "express": false,
+                                        "regional": false
+                                    },
+                                    "company": "VBB",
+                                    "categories": [
+                                        2
+                                    ],
+                                    "validFrom": "2024-08-02T04:27:00+02:00",
+                                    "validUntil": "2024-08-02T23:59:00+02:00",
+                                    "modified": "2024-08-02T14:30:55+02:00"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 600,
+                                "max": 600,
+                                "nr": 13
+                            }
+                        },
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900009104",
+                                "name": "S+U Wedding (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900009104",
+                                    "latitude": 52.542732,
+                                    "longitude": 13.366061
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900009104"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900068201",
+                                "name": "S+U Tempelhof (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900068201",
+                                    "latitude": 52.470575,
+                                    "longitude": 13.3859
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900068201"
+                            },
+                            "departure": "2024-08-02T20:01:00+02:00",
+                            "plannedDeparture": "2024-08-02T20:01:00+02:00",
+                            "departureDelay": null,
+                            "arrival": "2024-08-02T20:19:00+02:00",
+                            "plannedArrival": "2024-08-02T20:19:00+02:00",
+                            "arrivalDelay": null,
+                            "reachable": true,
+                            "tripId": "1|64502|12|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "u6",
+                                "fahrtNr": "16676",
+                                "name": "U6",
+                                "public": true,
+                                "adminCode": "BVU---",
+                                "productName": "U",
+                                "mode": "train",
+                                "product": "subway",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "berliner-verkehrsbetriebe",
+                                    "name": "Berliner Verkehrsbetriebe"
+                                }
+                            },
+                            "direction": "Alt-Mariendorf",
+                            "arrivalPlatform": "1",
+                            "plannedArrivalPlatform": "1",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "1",
+                            "plannedDeparturePlatform": "1",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Wedding (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Tempelhof (Berlin))"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 300,
+                                "max": 600,
+                                "nr": 19
+                            },
+                            "occupancy": "medium"
+                        }
+                    ],
+                    "refreshToken": "\u00b6HKI\u00b6T$A=1@O=S+U Gesundbrunnen Bhf (Berlin)@L=900007102@a=128@$A=1@O=S+U Wedding (Berlin)@L=900009104@a=128@$202408021951$202408021953$     S42$$1$$$$$$\u00a7T$A=1@O=S+U Wedding (Berlin)@L=900009104@a=128@$A=1@O=S+U Tempelhof (Berlin)@L=900068201@a=128@$202408022001$202408022019$      U6$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#81#AM2#0#RT#7#\u00b6KRCC\u00b6#VE#1#\u00b6PC\u00b6eyJncnBJZCI6Ik9FViJ9",
+                    "cycle": {
+                        "min": 600
+                    }
+                },
+                {
+                    "type": "journey",
+                    "legs": [
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900007102",
+                                "name": "S+U Gesundbrunnen Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900007102",
+                                    "latitude": 52.548638,
+                                    "longitude": 13.388372
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900007102"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900068201",
+                                "name": "S+U Tempelhof (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900068201",
+                                    "latitude": 52.470575,
+                                    "longitude": 13.3859
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900068201"
+                            },
+                            "departure": "2024-08-02T19:55:00+02:00",
+                            "plannedDeparture": "2024-08-02T19:55:00+02:00",
+                            "departureDelay": 0,
+                            "arrival": "2024-08-02T20:22:00+02:00",
+                            "plannedArrival": "2024-08-02T20:22:00+02:00",
+                            "arrivalDelay": 0,
+                            "reachable": true,
+                            "tripId": "1|89419|13|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "s41",
+                                "fahrtNr": "696",
+                                "name": "S41",
+                                "public": true,
+                                "adminCode": "DBS---",
+                                "productName": "S",
+                                "mode": "train",
+                                "product": "suburban",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "s-bahn-berlin-gmbh",
+                                    "name": "S-Bahn Berlin GmbH"
+                                }
+                            },
+                            "direction": "Ringbahn S 41",
+                            "arrivalPlatform": "1",
+                            "plannedArrivalPlatform": "1",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "3",
+                            "plannedDeparturePlatform": "3",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Gesundbrunnen Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Tempelhof (Berlin))"
+                                },
+                                {
+                                    "id": "233908",
+                                    "type": "warning",
+                                    "summary": "Gro\u00dfst\u00f6rung.",
+                                    "text": "Wegen einer Beeintr\u00e4chtigung durch Vandalismus im Bereich Jungfernheide ist der Zugverkehr der Linien S41 und S42 zwischen Westend und Beusselstra\u00dfe unterbrochen. Ein Ersatzverkehr mit Bussen wurde eingerichtet. Zur weitr\u00e4umigen Umfahrung nutzen Sie bitte die Verkehrsmittel der BVG. Wir bitten um Ihr Verst\u00e4ndnis.\n<a href=\"https://sbahn.berlin/fahren/bauen-stoerung/S41/\" target=\"_blank\" rel=\"noopener\">St\u00f6rfallinfo</a>",
+                                    "icon": {
+                                        "type": "HIM2",
+                                        "title": null
+                                    },
+                                    "priority": 32,
+                                    "products": {
+                                        "suburban": true,
+                                        "subway": false,
+                                        "tram": false,
+                                        "bus": false,
+                                        "ferry": false,
+                                        "express": false,
+                                        "regional": false
+                                    },
+                                    "company": "VBB",
+                                    "categories": [
+                                        2
+                                    ],
+                                    "validFrom": "2024-08-02T04:27:00+02:00",
+                                    "validUntil": "2024-08-02T23:59:00+02:00",
+                                    "modified": "2024-08-02T14:30:55+02:00"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 600,
+                                "max": 600,
+                                "nr": 13
+                            }
+                        }
+                    ],
+                    "refreshToken": "\u00b6HKI\u00b6T$A=1@O=S+U Gesundbrunnen Bhf (Berlin)@L=900007102@a=128@$A=1@O=S+U Tempelhof (Berlin)@L=900068201@a=128@$202408021955$202408022022$     S41$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#81#AM2#0#RT#7#\u00b6KRCC\u00b6#VE#1#\u00b6PC\u00b6eyJncnBJZCI6Ik9FViJ9",
+                    "cycle": {
+                        "min": 600
+                    }
+                },
+                {
+                    "type": "journey",
+                    "legs": [
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900007102",
+                                "name": "S+U Gesundbrunnen Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900007102",
+                                    "latitude": 52.548638,
+                                    "longitude": 13.388372
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900007102"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900100001",
+                                "name": "S+U Friedrichstr. Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900100001",
+                                    "latitude": 52.520519,
+                                    "longitude": 13.386448
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": true,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900100001"
+                            },
+                            "departure": "2024-08-02T19:57:00+02:00",
+                            "plannedDeparture": "2024-08-02T19:57:00+02:00",
+                            "departureDelay": 0,
+                            "arrival": "2024-08-02T20:05:00+02:00",
+                            "plannedArrival": "2024-08-02T20:05:00+02:00",
+                            "arrivalDelay": 0,
+                            "reachable": true,
+                            "tripId": "1|377|42|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "s1",
+                                "fahrtNr": "19049",
+                                "name": "S1",
+                                "public": true,
+                                "adminCode": "DBS---",
+                                "productName": "S",
+                                "mode": "train",
+                                "product": "suburban",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "s-bahn-berlin-gmbh",
+                                    "name": "S-Bahn Berlin GmbH"
+                                }
+                            },
+                            "direction": "S Wannsee Bhf (Berlin)",
+                            "arrivalPlatform": "11",
+                            "plannedArrivalPlatform": "11",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "1",
+                            "plannedDeparturePlatform": "1",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Gesundbrunnen Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Friedrichstr. Bhf (Berlin))"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 120,
+                                "max": 420,
+                                "nr": 35
+                            }
+                        },
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900100001",
+                                "name": "S+U Friedrichstr. Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900100001",
+                                    "latitude": 52.520519,
+                                    "longitude": 13.386448
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": true,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900100001"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900068201",
+                                "name": "S+U Tempelhof (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900068201",
+                                    "latitude": 52.470575,
+                                    "longitude": 13.3859
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900068201"
+                            },
+                            "departure": "2024-08-02T20:12:00+02:00",
+                            "plannedDeparture": "2024-08-02T20:12:00+02:00",
+                            "departureDelay": null,
+                            "arrival": "2024-08-02T20:24:00+02:00",
+                            "plannedArrival": "2024-08-02T20:24:00+02:00",
+                            "arrivalDelay": null,
+                            "reachable": true,
+                            "tripId": "1|64502|13|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "u6",
+                                "fahrtNr": "16677",
+                                "name": "U6",
+                                "public": true,
+                                "adminCode": "BVU---",
+                                "productName": "U",
+                                "mode": "train",
+                                "product": "subway",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "berliner-verkehrsbetriebe",
+                                    "name": "Berliner Verkehrsbetriebe"
+                                }
+                            },
+                            "direction": "Alt-Mariendorf",
+                            "arrivalPlatform": "1",
+                            "plannedArrivalPlatform": "1",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "1",
+                            "plannedDeparturePlatform": "1",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Friedrichstr. Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Tempelhof (Berlin))"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 300,
+                                "max": 600,
+                                "nr": 18
+                            },
+                            "occupancy": "medium"
+                        }
+                    ],
+                    "refreshToken": "\u00b6HKI\u00b6T$A=1@O=S+U Gesundbrunnen Bhf (Berlin)@L=900007102@a=128@$A=1@O=S+U Friedrichstr. Bhf (Berlin)@L=900100001@a=128@$202408021957$202408022005$      S1$$1$$$$$$\u00a7T$A=1@O=S+U Friedrichstr. Bhf (Berlin)@L=900100001@a=128@$A=1@O=S+U Tempelhof (Berlin)@L=900068201@a=128@$202408022012$202408022024$      U6$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#81#AM2#0#RT#7#\u00b6KRCC\u00b6#VE#1#\u00b6PC\u00b6eyJncnBJZCI6Ik9FViJ9",
+                    "cycle": {
+                        "min": 300
+                    }
+                },
+                {
+                    "type": "journey",
+                    "legs": [
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900007102",
+                                "name": "S+U Gesundbrunnen Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900007102",
+                                    "latitude": 52.548638,
+                                    "longitude": 13.388372
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900007102"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900003200",
+                                "name": "S+U Berlin Hauptbahnhof [Gleis 1-8]",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900003200",
+                                    "latitude": 52.525041,
+                                    "longitude": 13.369387
+                                },
+                                "products": {
+                                    "suburban": false,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900003200"
+                            },
+                            "departure": "2024-08-02T19:58:00+02:00",
+                            "plannedDeparture": "2024-08-02T19:58:00+02:00",
+                            "departureDelay": 0,
+                            "arrival": "2024-08-02T20:03:00+02:00",
+                            "plannedArrival": "2024-08-02T20:03:00+02:00",
+                            "arrivalDelay": 0,
+                            "reachable": true,
+                            "tripId": "1|88280|1|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "fex",
+                                "fahrtNr": "357",
+                                "name": "FEX",
+                                "public": true,
+                                "adminCode": "800165",
+                                "productName": "FEX",
+                                "mode": "train",
+                                "product": "regional",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "db-regio-ag",
+                                    "name": "DB Regio AG"
+                                }
+                            },
+                            "direction": "S+U Berlin Hauptbahnhof [Gleis 1-8]",
+                            "arrivalPlatform": "4",
+                            "plannedArrivalPlatform": "4",
+                            "arrivalPrognosisType": "prognosed",
+                            "departurePlatform": "7",
+                            "plannedDeparturePlatform": "7",
+                            "departurePrognosisType": "prognosed",
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Gesundbrunnen Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Berlin Hauptbahnhof [Gleis 1-8])"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "ek",
+                                    "text": "Fahrzeuggebundene Einstiegshilfe vorhanden"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 300,
+                                "max": 1740,
+                                "nr": 9
+                            },
+                            "alternatives": [
+                                {
+                                    "tripId": "1|70896|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re5",
+                                        "fahrtNr": "660",
+                                        "name": "RE5",
+                                        "public": true,
+                                        "adminCode": "800158",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "S S\u00fcdkreuz Bhf (Berlin)",
+                                    "when": "2024-08-02T20:05:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:05:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|70727|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re3",
+                                        "fahrtNr": "461",
+                                        "name": "RE3",
+                                        "public": true,
+                                        "adminCode": "800158",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "Ludwigsfelde, Bahnhof",
+                                    "when": "2024-08-02T20:24:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:24:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|88363|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "fex",
+                                        "fahrtNr": "365",
+                                        "name": "FEX",
+                                        "public": true,
+                                        "adminCode": "800165",
+                                        "productName": "FEX",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "S+U Berlin Hauptbahnhof [Gleis 1-8]",
+                                    "when": "2024-08-02T20:29:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:29:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|88368|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "fex",
+                                        "fahrtNr": "368",
+                                        "name": "FEX",
+                                        "public": true,
+                                        "adminCode": "800165",
+                                        "productName": "FEX",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "S+U Berlin Hauptbahnhof [Gleis 1-8]",
+                                    "when": "2024-08-02T20:58:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:58:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|70913|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re5",
+                                        "fahrtNr": "183",
+                                        "name": "RE5",
+                                        "public": true,
+                                        "adminCode": "800158",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "S S\u00fcdkreuz Bhf (Berlin)",
+                                    "when": "2024-08-02T21:06:00+02:00",
+                                    "plannedWhen": "2024-08-02T21:06:00+02:00",
+                                    "delay": null
+                                }
+                            ]
+                        },
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900003200",
+                                "name": "S+U Berlin Hauptbahnhof [Gleis 1-8]",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900003200",
+                                    "latitude": 52.525041,
+                                    "longitude": 13.369387
+                                },
+                                "products": {
+                                    "suburban": false,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900003200"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900058101",
+                                "name": "S S\u00fcdkreuz Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900058101",
+                                    "latitude": 52.475501,
+                                    "longitude": 13.365548
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900058101"
+                            },
+                            "departure": null,
+                            "plannedDeparture": "2024-08-02T20:09:00+02:00",
+                            "departureDelay": null,
+                            "arrival": null,
+                            "plannedArrival": "2024-08-02T20:16:00+02:00",
+                            "arrivalDelay": null,
+                            "reachable": false,
+                            "tripId": "1|83307|1|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "rb14",
+                                "fahrtNr": "597",
+                                "name": "RB14",
+                                "public": true,
+                                "adminCode": "800165",
+                                "productName": "RB",
+                                "mode": "train",
+                                "product": "regional",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "db-regio-ag",
+                                    "name": "DB Regio AG"
+                                }
+                            },
+                            "direction": "S S\u00fcdkreuz Bhf (Berlin)",
+                            "arrivalPlatform": null,
+                            "plannedArrivalPlatform": "6",
+                            "arrivalPrognosisType": null,
+                            "departurePlatform": null,
+                            "plannedDeparturePlatform": "1",
+                            "departurePrognosisType": null,
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Berlin Hauptbahnhof [Gleis 1-8])"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S S\u00fcdkreuz Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "ek",
+                                    "text": "Fahrzeuggebundene Einstiegshilfe vorhanden"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "WV",
+                                    "text": "WLAN verf\u00fcgbar"
+                                },
+                                {
+                                    "id": "233931",
+                                    "type": "warning",
+                                    "summary": "St\u00f6rung.",
+                                    "text": "Ausfall der Z\u00fcge der Linie RB14 zwischen Nauen und Berlin S\u00fcdkreuz in beide Richtungen bis vsl Tagesende. Grund: Streckensperrung. Bitte pr\u00fcfen Sie Ihre Reiseverbindung.",
+                                    "icon": {
+                                        "type": "HIM2",
+                                        "title": null
+                                    },
+                                    "priority": 32,
+                                    "products": {
+                                        "suburban": false,
+                                        "subway": false,
+                                        "tram": false,
+                                        "bus": false,
+                                        "ferry": false,
+                                        "express": false,
+                                        "regional": true
+                                    },
+                                    "company": "VBB",
+                                    "categories": [
+                                        2
+                                    ],
+                                    "validFrom": "2024-08-02T06:00:00+02:00",
+                                    "validUntil": "2024-08-02T23:59:00+02:00",
+                                    "modified": "2024-08-02T07:19:16+02:00"
+                                },
+                                {
+                                    "type": "status",
+                                    "code": "text.realtime.journey.cancelled",
+                                    "text": "RB14 has been cancelled"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 540,
+                                "max": 2520,
+                                "nr": 6
+                            },
+                            "alternatives": [
+                                {
+                                    "tripId": "1|70727|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re3",
+                                        "fahrtNr": "461",
+                                        "name": "RE3",
+                                        "public": true,
+                                        "adminCode": "800158",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "Ludwigsfelde, Bahnhof",
+                                    "when": "2024-08-02T20:32:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:32:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|70913|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re5",
+                                        "fahrtNr": "183",
+                                        "name": "RE5",
+                                        "public": true,
+                                        "adminCode": "800158",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "S S\u00fcdkreuz Bhf (Berlin)",
+                                    "when": "2024-08-02T21:14:00+02:00",
+                                    "plannedWhen": "2024-08-02T21:14:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|70737|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re3",
+                                        "fahrtNr": "243",
+                                        "name": "RE3",
+                                        "public": true,
+                                        "adminCode": "800158",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "Ludwigsfelde, Bahnhof",
+                                    "when": "2024-08-02T21:33:00+02:00",
+                                    "plannedWhen": "2024-08-02T21:33:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|82621|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re8",
+                                        "fahrtNr": "62086",
+                                        "name": "RE8",
+                                        "public": true,
+                                        "adminCode": "ODRE8_",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                                            "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                                        }
+                                    },
+                                    "direction": "Elsterwerda, Bahnhof",
+                                    "when": "2024-08-02T21:42:00+02:00",
+                                    "plannedWhen": "2024-08-02T21:42:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|71115|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "re4",
+                                        "fahrtNr": "476",
+                                        "name": "RE4",
+                                        "public": true,
+                                        "adminCode": "800158",
+                                        "productName": "RE",
+                                        "mode": "train",
+                                        "product": "regional",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "db-regio-ag",
+                                            "name": "DB Regio AG"
+                                        }
+                                    },
+                                    "direction": "Ludwigsfelde, Bahnhof",
+                                    "when": "2024-08-02T22:03:00+02:00",
+                                    "plannedWhen": "2024-08-02T22:03:00+02:00",
+                                    "delay": null
+                                }
+                            ],
+                            "cancelled": true
+                        },
+                        {
+                            "origin": {
+                                "type": "stop",
+                                "id": "900058101",
+                                "name": "S S\u00fcdkreuz Bhf (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900058101",
+                                    "latitude": 52.475501,
+                                    "longitude": 13.365548
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": false,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": true,
+                                    "regional": true
+                                },
+                                "stationDHID": "de:11000:900058101"
+                            },
+                            "destination": {
+                                "type": "stop",
+                                "id": "900068201",
+                                "name": "S+U Tempelhof (Berlin)",
+                                "location": {
+                                    "type": "location",
+                                    "id": "900068201",
+                                    "latitude": 52.470575,
+                                    "longitude": 13.3859
+                                },
+                                "products": {
+                                    "suburban": true,
+                                    "subway": true,
+                                    "tram": false,
+                                    "bus": true,
+                                    "ferry": false,
+                                    "express": false,
+                                    "regional": false
+                                },
+                                "stationDHID": "de:11000:900068201"
+                            },
+                            "departure": "2024-08-02T20:20:00+02:00",
+                            "plannedDeparture": "2024-08-02T20:20:00+02:00",
+                            "departureDelay": 0,
+                            "arrival": "2024-08-02T20:22:00+02:00",
+                            "plannedArrival": "2024-08-02T20:22:00+02:00",
+                            "arrivalDelay": 0,
+                            "reachable": true,
+                            "tripId": "1|90626|13|86|2082024",
+                            "line": {
+                                "type": "line",
+                                "id": "s42",
+                                "fahrtNr": "1696",
+                                "name": "S42",
+                                "public": true,
+                                "adminCode": "DBS---",
+                                "productName": "S",
+                                "mode": "train",
+                                "product": "suburban",
+                                "operator": {
+                                    "type": "operator",
+                                    "id": "s-bahn-berlin-gmbh",
+                                    "name": "S-Bahn Berlin GmbH"
+                                }
+                            },
+                            "direction": "Ringbahn S 42",
+                            "arrivalPlatform": "2",
+                            "plannedArrivalPlatform": "2",
+                            "arrivalPrognosisType": null,
+                            "departurePlatform": "12",
+                            "plannedDeparturePlatform": "12",
+                            "departurePrognosisType": null,
+                            "remarks": [
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S S\u00fcdkreuz Bhf (Berlin))"
+                                },
+                                {
+                                    "type": "hint",
+                                    "code": "FK",
+                                    "text": "Bicycle conveyance (S+U Tempelhof (Berlin))"
+                                },
+                                {
+                                    "id": "233908",
+                                    "type": "warning",
+                                    "summary": "Gro\u00dfst\u00f6rung.",
+                                    "text": "Wegen einer Beeintr\u00e4chtigung durch Vandalismus im Bereich Jungfernheide ist der Zugverkehr der Linien S41 und S42 zwischen Westend und Beusselstra\u00dfe unterbrochen. Ein Ersatzverkehr mit Bussen wurde eingerichtet. Zur weitr\u00e4umigen Umfahrung nutzen Sie bitte die Verkehrsmittel der BVG. Wir bitten um Ihr Verst\u00e4ndnis.\n<a href=\"https://sbahn.berlin/fahren/bauen-stoerung/S41/\" target=\"_blank\" rel=\"noopener\">St\u00f6rfallinfo</a>",
+                                    "icon": {
+                                        "type": "HIM2",
+                                        "title": null
+                                    },
+                                    "priority": 32,
+                                    "products": {
+                                        "suburban": true,
+                                        "subway": false,
+                                        "tram": false,
+                                        "bus": false,
+                                        "ferry": false,
+                                        "express": false,
+                                        "regional": false
+                                    },
+                                    "company": "VBB",
+                                    "categories": [
+                                        2
+                                    ],
+                                    "validFrom": "2024-08-02T04:27:00+02:00",
+                                    "validUntil": "2024-08-02T23:59:00+02:00",
+                                    "modified": "2024-08-02T14:30:55+02:00"
+                                }
+                            ],
+                            "cycle": {
+                                "min": 120,
+                                "max": 480,
+                                "nr": 25
+                            },
+                            "alternatives": [
+                                {
+                                    "tripId": "1|2084|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "s45",
+                                        "fahrtNr": "22835",
+                                        "name": "S45",
+                                        "public": true,
+                                        "adminCode": "DBS---",
+                                        "productName": "S",
+                                        "mode": "train",
+                                        "product": "suburban",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "s-bahn-berlin-gmbh",
+                                            "name": "S-Bahn Berlin GmbH"
+                                        }
+                                    },
+                                    "direction": "Flughafen BER",
+                                    "when": "2024-08-02T20:28:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:28:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|90626|8|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "s42",
+                                        "fahrtNr": "1692",
+                                        "name": "S42",
+                                        "public": true,
+                                        "adminCode": "DBS---",
+                                        "productName": "S",
+                                        "mode": "train",
+                                        "product": "suburban",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "s-bahn-berlin-gmbh",
+                                            "name": "S-Bahn Berlin GmbH"
+                                        }
+                                    },
+                                    "direction": "Ringbahn S 42",
+                                    "when": "2024-08-02T20:30:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:30:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|2315|47|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "s46",
+                                        "fahrtNr": "23068",
+                                        "name": "S46",
+                                        "public": true,
+                                        "adminCode": "DBS---",
+                                        "productName": "S",
+                                        "mode": "train",
+                                        "product": "suburban",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "s-bahn-berlin-gmbh",
+                                            "name": "S-Bahn Berlin GmbH"
+                                        }
+                                    },
+                                    "direction": "S Zeuthen",
+                                    "when": "2024-08-02T20:33:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:33:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|90626|9|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "s42",
+                                        "fahrtNr": "1688",
+                                        "name": "S42",
+                                        "public": true,
+                                        "adminCode": "DBS---",
+                                        "productName": "S",
+                                        "mode": "train",
+                                        "product": "suburban",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "s-bahn-berlin-gmbh",
+                                            "name": "S-Bahn Berlin GmbH"
+                                        }
+                                    },
+                                    "direction": "Ringbahn S 42",
+                                    "when": "2024-08-02T20:40:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:40:00+02:00",
+                                    "delay": null
+                                },
+                                {
+                                    "tripId": "1|2080|0|86|2082024",
+                                    "line": {
+                                        "type": "line",
+                                        "id": "s45",
+                                        "fahrtNr": "22834",
+                                        "name": "S45",
+                                        "public": true,
+                                        "adminCode": "DBS---",
+                                        "productName": "S",
+                                        "mode": "train",
+                                        "product": "suburban",
+                                        "operator": {
+                                            "type": "operator",
+                                            "id": "s-bahn-berlin-gmbh",
+                                            "name": "S-Bahn Berlin GmbH"
+                                        }
+                                    },
+                                    "direction": "Flughafen BER",
+                                    "when": "2024-08-02T20:48:00+02:00",
+                                    "plannedWhen": "2024-08-02T20:48:00+02:00",
+                                    "delay": null
+                                }
+                            ]
+                        }
+                    ],
+                    "refreshToken": "\u00b6HKI\u00b6T$A=1@O=S+U Gesundbrunnen Bhf (Berlin)@L=900007102@a=128@$A=1@O=S+U Berlin Hauptbahnhof [Gleis 1-8]@L=900003200@a=128@$202408021958$202408022003$FEX     $$1$$$$$$\u00a7T$A=1@O=S+U Berlin Hauptbahnhof [Gleis 1-8]@L=900003200@a=128@$A=1@O=S S\u00fcdkreuz Bhf (Berlin)@L=900058101@a=128@$202408022009$202408022016$    RB14$$1$$$$$$\u00a7T$A=1@O=S S\u00fcdkreuz Bhf (Berlin)@L=900058101@a=128@$A=1@O=S+U Tempelhof (Berlin)@L=900068201@a=128@$202408022020$202408022022$     S42$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#81#AM2#0#RT#7#\u00b6KRCC\u00b6#VE#1#\u00b6PC\u00b6eyJncnBJZCI6Ik9FViJ9",
+                    "cycle": {
+                        "min": 540
+                    },
+                    "remarks": [
+                        {
+                            "type": "status",
+                            "code": "text.realtime.connection.cancelled",
+                            "text": "Trip is not possible"
+                        }
+                    ]
+                }
+            ],
+            "realtimeDataUpdatedAt": 1722611712
+        }
+    }
+]
