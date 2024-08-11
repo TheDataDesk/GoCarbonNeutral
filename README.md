@@ -40,13 +40,13 @@ Alexander is using the **Go Carbon Neutral** platform to plan his trip from Berl
 2. **Retrieve Transportation Modes**: We fetch the transportation modes via the BVG API.
 3. **Estimate Distance**: If the distance isn't readily available, we'll use the Google Maps API to calculate it.
 4. **Calculate Emission**: 
-   \[
-   \text{Emission} = \text{Distance} \times \text{Carbon Factor}
-   \]
+
+   Emission = Distance \ Carbon Factor 
+
    - For example, if Alexander travels 9 km by bus:
-   \[
-   \text{Emission} = 9 \text{ km} \times 120 \text{ g CO2/km} = 1080 \text{ g CO2}
-   \]
+
+Emission = 9 km \ 120 g CO2/km = 1080  g CO2
+
 
 Now, Alexander can see the carbon emissions for different routes and choose the most eco-friendly option. 🎉
 
