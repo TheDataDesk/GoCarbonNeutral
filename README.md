@@ -58,3 +58,4 @@ Alexander chose the route with the lowest carbon emissions, contributing to a he
 
 Happy travels, and thank you for making a difference! If you have any questions or want to contribute, feel free to reach out. Together, we can #GoCarbonNeutral! 🌍💚
 
+To understand better about the project, read blog post [here](https://medium.com/@sirishapadmasekhar/go-carbon-neutral-bvg-api-to-reduce-carbon-emissions-️-e8e9a8def8f2)
